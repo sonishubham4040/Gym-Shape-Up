@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Up</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-------------------------------------------- NAVBAR ------------------------------------------>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <img src="muscle.png" height="40px" alt="muscle-image"> Shape Up</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Services
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">CrossFit</a></li>
+                  <li><a class="dropdown-item" href="#">Weight-Training</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Zumba</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Find your details" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Find</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <!--------------------------------------- HERO CONTENT BELOW NAV ---------------------------------->
+      <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-10 col-sm-8 col-lg-6">
+            <img src="gym.jpg" class="d-block mx-lg-auto img-fluid" alt="gym-image" width="700" height="500" loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Get Yourself In Best Shape</h1>
+            <p class="lead">To make you Healthier, Stronger and get you in the best shape. To equip you with all the fitness info so that you enjoy life to the fullest. A great place to workout Shape Up Gym has many kinds of workouts available. With a huge space for working out and a lot of trainers to assist you with proper training and diet.</p>
+            <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+              <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Get a Quote</button>
+              <button type="button" class="btn btn-outline-secondary btn-lg px-4">Contact Us</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!---------------------------------------------FEATUERES---------------------------------------->
+      <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 border-bottom">Why Join Shape Up?</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+                <img src="community.png" alt="community-people-image" height="40px">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Community</h3>
+            <p>You're not just joining a gym. You're joining a supportive community of like-minded people who are here to give you the encouragement you need.</p>
+            <a href="#" class="icon-link">
+                Get a quote
+              <img src="chevron-right.png" alt="chevron-right-image" height="8px">
+            </a>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="tools.png" alt="tools-gym-machine-image" height="40px">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Tools & Training</h3>
+            <p>Getting to a healthier place is about more than going to the gym. That's why we offer personal training and classes when you're here, and the right tools to keep you on track when you're not.</p>
+            <a href="#" class="icon-link">
+                Get a quote
+                <img src="chevron-right.png" alt="chevron-right-image" height="8px">
+            </a>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+              <img src="convience.png" alt="convience-24/7-image" height="40px">
+            </div>
+            <h3 class="fs-2 text-body-emphasis">Convenience</h3>
+            <p>With 24/7 access to more than 3,000 locations worldwide, you're joining the most convenient gym on the planet.</p>
+            <a href="#" class="icon-link">
+              Get a quote
+              <img src="chevron-right.png" alt="chevron-right-image" height="8px">
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!------------------------------------------ CAROUSEL ----------------------------------------->
+      <div class="container">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="gym-image1.jpeg" class="d-block w-100" alt="gym-image-1">
+            </div>
+            <div class="carousel-item">
+                <img src="gym-image2.jpg" class="d-block w-100" alt="gym-image-2">
+            </div>
+            <div class="carousel-item">
+                <img src="gym-image6.jpg" class="d-block w-100" alt="gym-image-3">
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+      </div>
+
+      <!----------------------------------------------WHAT'S NEW---------------------------------------->
+      <div class="modal modal-sheet position-static d-block bg-body-secondary p-4 py-md-5" tabindex="-1" role="dialog" id="modalTour">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content rounded-4 shadow">
+            <div class="modal-body p-5">
+              <h2 class="fw-bold mb-0">What's new</h2>
+      
+              <ul class="d-grid gap-4 my-5 list-unstyled small">
+                <li class="d-flex gap-4">
+                  <img src="equipment.png" alt="equipment-image-dumbell" height="40px">
+                  <div>
+                    <h5 class="mb-0">New Equipments</h5>
+                    A new set of smooth machines and tools.
+                  </div>
+                </li>
+                <li class="d-flex gap-4">
+                  <img src="air-conditioner.png" alt="air-conditioner-image" height="40px">
+                  <div>
+                    <h5 class="mb-0">Air Conditioned</h5>
+                    Fully air conditioned and well maintained environment.
+                  </div>
+                </li>
+                <li class="d-flex gap-4">
+                  <img src="cafe.png" alt="cafe-image" height="40px">
+                  <div>
+                    <h5 class="mb-0">Diet Cafe</h5>
+                    Opened a cafe where you'll get Nutritions.
+                  </div>
+                </li>
+              </ul>
+              <button type="button" class="btn btn-lg btn-primary mt-5 w-100" data-bs-dismiss="modal">Great, thanks!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!---------------------------------------- FOOTER ---------------------------------->
+      
+      <div class="container">
+        <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+            <div class="col mb-3">
+            <p class="text-body-secondary"> <img src="muscle.png" alt="" height="40px"> © 2023</p>
+            </div>
+        
+            <div class="col mb-3">
+        
+            </div>
+        
+            <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+            </div>
+        
+            <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+            </div>
+        
+            <div class="col mb-3">
+            <h5>Section</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+                <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+            </ul>
+            </div>
+        </footer>
+
+        <footer class="py-3 my-4 last">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+              <li class="nav-item"><a href="https://www.linkedin.com/in/shubham-soni-5a9017246/" class="nav-link px-3 text-body-secondary"> <img src="linkedin.png" alt="linkedin-image" height="40px"></a></li>
+              <li class="nav-item"><a href="mailto:sonishubham4040@gmail.com" class="nav-link px-3 text-body-secondary"> <img src="gmail.png" alt="gmail-image" height="40px"></a></li>
+              <li class="nav-item"><a href="https://www.instagram.com/shubham._.sonii/" class="nav-link px-3 text-body-secondary"> <img src="instagram.png" alt="instagram-image" height="40px"></a></li>
+            </ul>
+            <p class="text-center text-body-secondary">© 2023, Developed by: <a href="https://www.linkedin.com/in/shubham-soni-5a9017246/">Shubham Soni ❤</a></p>
+        </footer>
+
+      </div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>    
+</body>
+</html>
